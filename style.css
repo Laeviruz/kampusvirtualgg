@@ -225,12 +225,20 @@
     letter-spacing: 0.15em;
     cursor: pointer;
     color: rgb(97, 97, 97);
-    padding: 0%;
     margin: 0%;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
     font-family: "OpenSansCondensed-Bold", sans-serif;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    transition: .3s;
+  }
+  .ajig:hover{
+    background-color: transparent;
+    color: black;
+    font-size: 10rem;
+    transform: linear 1s;
   }
   h2{
     margin-left: 10%;
